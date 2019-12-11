@@ -8,5 +8,5 @@
         android:icon="@drawable/chart" />
     <item android:id="@+id/action_user"
         android:title="USER"
-        android:icon="@drawable/user" />
+        android:icon="@drawable/user1" />
 </menu>
