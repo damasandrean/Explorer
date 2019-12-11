@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">Explorer</string>
+    <string name="app_name">Intro Slider</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Location</string>
+    <string name="slide_1_desc">Kemudahan Dalam Menemukann Lokasi yang ingin anda tuju!</string>
+
+    <string name="slide_2_title">Transportation</string>
+    <string name="slide_2_desc">Perjalanan Jadi Mudah!</string>
+
+    <string name="slide_3_title">Food</string>
+    <string name="slide_3_desc">Cara Mudah Menemukan Restoran Kesayangan Anda!</string>
+
+    <string name="slide_4_title">Welcome</string>
+    <string name="slide_4_desc">Selamat Berpetualang Dan Temukan Pengalaman Tak Terlupakan!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>
