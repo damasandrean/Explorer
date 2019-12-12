@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "218796706549",
+    "firebase_url": "https://explorer-bf4b0.firebaseio.com",
+    "project_id": "explorer-bf4b0",
+    "storage_bucket": "explorer-bf4b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218796706549:android:c1663b86fd9675972e93bc",
+        "android_client_info": {
+          "package_name": "com.damasandrean.explorer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218796706549-e21eimdl3dci3bumdr2g12k2j0ul8ld3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR4zKvUz7U0f76cU-Vdelh6Yu9zjZOKWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218796706549-e21eimdl3dci3bumdr2g12k2j0ul8ld3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
