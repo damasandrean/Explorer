@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="205dp"
             android:layout_height="238dp"
-            android:src="@drawable/logo" />
+            android:src="@drawable/ic_food" />
 
         <TextView
             android:layout_width="wrap_content"

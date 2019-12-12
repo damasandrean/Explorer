@@ -14,7 +14,7 @@
         <ImageView
             android:layout_width="211dp"
             android:layout_height="277dp"
-            android:src="@drawable/png" />
+            android:src="@drawable/trans" />
 
         <TextView
             android:layout_width="wrap_content"
