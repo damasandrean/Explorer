@@ -31,13 +31,14 @@
             android:src="@drawable/hotel" />
 
         <TextView
+            android:id="@+id/judul1"
             android:layout_width="150dp"
             android:layout_height="80dp"
             android:layout_marginStart="125dp"
             android:layout_marginLeft="25dp"
             android:layout_marginTop="20dp"
             android:paddingStart="10dp"
-            android:text="Hotel Singosari"
+            android:text="Hotel Singhasari"
             android:textAlignment="center"
             android:textSize="24dp"
             android:textStyle="bold"></TextView>
@@ -59,13 +60,14 @@
                 android:src="@drawable/hotel1" />
 
             <TextView
+                android:id="@+id/judul2"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="125dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="20dp"
                 android:paddingStart="10dp"
-                android:text="Hotel Grand Mansion"
+                android:text="Hotel Grand City"
                 android:textAlignment="center"
                 android:textSize="23dp"
                 android:textStyle="bold"></TextView>
@@ -87,6 +89,7 @@
                 android:src="@drawable/hotel2" />
 
             <TextView
+                android:id="@+id/judul3"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="125dp"
@@ -116,6 +119,7 @@
                 android:src="@drawable/garden" />
 
             <TextView
+                android:id="@+id/judul4"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="125dp"
@@ -144,6 +148,7 @@
                 android:src="@drawable/paralayang" />
 
             <TextView
+                android:id="@+id/judul5"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="125dp"
@@ -172,6 +177,7 @@
                 android:src="@drawable/alun" />
 
             <TextView
+                android:id="@+id/judul6"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="125dp"
@@ -200,6 +206,7 @@
                 android:src="@drawable/warungw" />
 
             <TextView
+                android:id="@+id/judul7"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="125dp"
@@ -228,6 +235,7 @@
                 android:src="@drawable/pos" />
 
             <TextView
+                android:id="@+id/judul8"
                 android:layout_width="150dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="125dp"
