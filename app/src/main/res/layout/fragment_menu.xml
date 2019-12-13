@@ -1,14 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.MenuFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
 
-</FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/house" />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Testing"
+            android:textSize="18dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="120dp">
+
+        </TextView>
+
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
