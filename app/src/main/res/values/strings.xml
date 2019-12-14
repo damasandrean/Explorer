@@ -28,4 +28,6 @@
     <string name="password">password</string>
     <string name="email">email</string>
     <string name="title_activity_register">Register</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
 </resources>
