@@ -6,4 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".activities.WhatsappActivity">
 
+    <EditText
+        android:id="@+id/etNomorHp"
+        android:layout_width="359dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="44dp"
+        android:hint="@string/title_masukan_nomor_hp"
+        android:inputType="number"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOpenWhatsapp"
+        android:layout_width="359dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="44dp"
+        android:background="#25D366"
+        android:text="@string/title_buka_w"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNomorHp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
