@@ -8,7 +8,7 @@ import com.damasandrean.explorer.R;
 
 public class WhatsappActivity extends AppCompatActivity {
 
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
