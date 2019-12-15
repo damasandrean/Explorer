@@ -13,12 +13,13 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.damasandrean.explorer.R;
+import com.damasandrean.explorer.activities.BelanjaActivity;
 import com.damasandrean.explorer.activities.HotelActivity;
+import com.damasandrean.explorer.activities.KulinerActivity;
 import com.damasandrean.explorer.activities.WhatsappActivity;
+import com.damasandrean.explorer.activities.WisataActivity;
 
-/**
- * A simple {@link Fragment} subclass.
- */
+
 public class BerandaFragment extends Fragment {
 
 
@@ -36,6 +37,33 @@ public class BerandaFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getActivity(), HotelActivity.class );
+                startActivity(in);
+            }
+        });
+
+        Button wisata2 = (Button) view.findViewById(R.id.wisata2);
+        wisata2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), WisataActivity.class );
+                startActivity(in);
+            }
+        });
+
+        Button kuliner3 = (Button) view.findViewById(R.id.kuliner3);
+        kuliner3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), KulinerActivity.class );
+                startActivity(in);
+            }
+        });
+
+        Button belanja4 = (Button) view.findViewById(R.id.belanja4);
+        belanja4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), BelanjaActivity.class );
                 startActivity(in);
             }
         });
