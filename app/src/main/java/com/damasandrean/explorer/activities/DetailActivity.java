@@ -25,17 +25,17 @@ public class DetailActivity extends AppCompatActivity {
         if(getIntent().getExtras().getString("code_image").equals("1")){
             Glide
                     .with(this)
-                    .load(R.drawable.hotel)
+                    .load(R.drawable.hoteldes)
                     .into(imageView2);
         }else if (getIntent().getExtras().getString("code_image").equals("2")){
             Glide
                     .with(this)
-                    .load(R.drawable.hotel1)
+                    .load(R.drawable.hotelgrand)
                     .into(imageView2);
         }else if (getIntent().getExtras().getString("code_image").equals("3")){
             Glide
                     .with(this)
-                    .load(R.drawable.hotel2)
+                    .load(R.drawable.hotelkar)
                     .into(imageView2);
         }else if (getIntent().getExtras().getString("code_image").equals("4")){
             Glide

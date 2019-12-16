@@ -53,7 +53,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
+                                    android:src="@drawable/hotelbaru">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -68,7 +68,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
+                                    android:text="Hotel Clary Trans"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -103,7 +103,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
+                                    android:src="@drawable/isi1">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -118,7 +118,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
+                                    android:text="Hotel Resort Vellary"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -162,7 +162,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
+                                    android:src="@drawable/isi2">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -177,7 +177,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
+                                    android:text="Hotel Cripto"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -212,7 +212,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
+                                    android:src="@drawable/isi3">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -227,7 +227,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
+                                    android:text="Hotel Ingnis"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -271,7 +271,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
+                                    android:src="@drawable/isi4">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -286,7 +286,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
+                                    android:text="Hotel Ibis"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -321,7 +321,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
+                                    android:src="@drawable/hotelgrand">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -336,7 +336,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
+                                    android:text="Hotel Mansion"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -380,7 +380,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
+                                    android:src="@drawable/hotelkar">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -395,7 +395,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
+                                    android:text="Hotel Karika"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -430,7 +430,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
+                                    android:src="@drawable/hoteldes">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -445,7 +445,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
+                                    android:text="Hotel Kuncoro"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -483,87 +483,11 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="150dp">
 
-                                <ImageView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="3dp"
-                                    android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
-
-                                </ImageView>
-                            </RelativeLayout>
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_centerInParent="true"
-                                    android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
-                                    android:textColor="@android:color/black"
-                                    android:textSize="20sp" />
-
                             </RelativeLayout>
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="6dp"
-                        app:cardElevation="2dp"
-                        app:cardUseCompatPadding="true">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="match_parent"
-                            android:orientation="vertical"
-                            android:padding="12dp"
-                            android:weightSum="3">
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="150dp">
-
-                                <ImageView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_centerHorizontal="true"
-                                    android:layout_marginTop="3dp"
-                                    android:scaleType="fitXY"
-                                    android:src="@drawable/hotel1">
-
-                                </ImageView>
-                            </RelativeLayout>
-
-                            <RelativeLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginLeft="10dp">
-
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_centerInParent="true"
-                                    android:layout_marginTop="12dp"
-                                    android:text="Hotel Predio Malang"
-                                    android:textColor="@android:color/black"
-                                    android:textSize="20sp" />
-
-                            </RelativeLayout>
-
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
 
                 </LinearLayout>
 
