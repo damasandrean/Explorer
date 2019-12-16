@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/png"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.BelanjaActivity"></activity>
+        <activity android:name=".activities.RegisterActivity"></activity>
+        <activity android:name=".activities.BelanjaActivity" />
         <activity android:name=".activities.KulinerActivity" />
         <activity android:name=".activities.WisataActivity" />
         <activity android:name=".activities.HotelActivity" />

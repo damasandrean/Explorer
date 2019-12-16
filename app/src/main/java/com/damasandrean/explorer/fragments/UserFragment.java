@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.damasandrean.explorer.R;
+import com.damasandrean.explorer.activities.RegisterActivity;
 import com.damasandrean.explorer.activities.WhatsappActivity;
 
 
@@ -26,6 +27,15 @@ public class UserFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View  view  = inflater.inflate(R.layout.fragment_user, container, false);
+
+        Button firebase = (Button) view.findViewById(R.id.firebase);
+        firebase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), RegisterActivity.class );
+                startActivity(in);
+            }
+        });
 
         Button whatsapp = (Button) view.findViewById(R.id.whatsapp);
         whatsapp.setOnClickListener(new View.OnClickListener() {
