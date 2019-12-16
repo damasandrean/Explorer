@@ -52,9 +52,8 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/paralayang">
+                                    android:src="@drawable/paralayang"></ImageView>
 
-                                </ImageView>
                             </RelativeLayout>
 
                             <RelativeLayout
