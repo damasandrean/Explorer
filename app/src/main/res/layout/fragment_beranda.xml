@@ -136,7 +136,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/kulinerbaru">
+                                    android:src="@drawable/wisatabaru">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -151,7 +151,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Kuliner"
+                                    android:text="Wisata"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
@@ -196,7 +196,7 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/wisatabaru">
+                                    android:src="@drawable/kulinerbaru">
 
                                 </ImageView>
                             </RelativeLayout>
@@ -211,7 +211,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_centerInParent="true"
                                     android:layout_marginTop="12dp"
-                                    android:text="Wisata"
+                                    android:text="Kuliner"
                                     android:textColor="@android:color/black"
                                     android:textSize="20sp" />
 
