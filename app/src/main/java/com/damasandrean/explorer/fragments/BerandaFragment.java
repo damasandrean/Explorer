@@ -4,6 +4,7 @@ package com.damasandrean.explorer.fragments;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -32,7 +33,7 @@ public class BerandaFragment extends Fragment {
         // Inflate the layout for this fragment
         View  view  = inflater.inflate(R.layout.fragment_beranda, container, false);
 
-        Button hotel = (Button) view.findViewById(R.id.hotel);
+        CardView hotel =  view.findViewById(R.id.hotel);
         hotel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,7 +42,7 @@ public class BerandaFragment extends Fragment {
             }
         });
 
-        Button wisata2 = (Button) view.findViewById(R.id.wisata2);
+        CardView wisata2 = view.findViewById(R.id.wisata2);
         wisata2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -50,7 +51,7 @@ public class BerandaFragment extends Fragment {
             }
         });
 
-        Button kuliner3 = (Button) view.findViewById(R.id.kuliner3);
+        CardView kuliner3 = view.findViewById(R.id.kuliner3);
         kuliner3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -59,7 +60,7 @@ public class BerandaFragment extends Fragment {
             }
         });
 
-        Button belanja4 = (Button) view.findViewById(R.id.belanja4);
+        CardView belanja4 = view.findViewById(R.id.belanja4);
         belanja4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

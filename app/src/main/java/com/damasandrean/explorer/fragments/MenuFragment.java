@@ -41,6 +41,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
+                i.putExtra("code_image", "1");
                 i.putExtra("title", "Hotel Singhasari");
                 i.putExtra("desc", " menyediakan layanan dan fasilitas lain seperti VIP Karaoke"+
                         "Coffee Shop, Cake Shop, Parkway Health, Swimming Pool " +
@@ -52,6 +53,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
+                i.putExtra("code_image", "2");
                 i.putExtra("title", "Hotel Grand City");
                 i.putExtra("desc", " menyediakan layanan dan fasilitas lain seperti VIP Karaoke,"+
                         " Bamboo Coffee ShopJl. Bukit Berbunga No.104-108, Sidomulyo, Kec. Batu, Kota Batu, Jawa Timur 65317");
@@ -62,6 +64,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
+                i.putExtra("code_image", "3");
                 i.putExtra("title", "Hotel Kartika");
                 i.putExtra("desc", "Hotel Kartika juga menyediakan layanan dan fasilitas lain seperti VIP Karaoke," +
                         " Bamboo Coffee Shop, Cake Shop, Parkway Health, Swimming Pool, " +
@@ -75,6 +78,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
+                i.putExtra("code_image", "4");
                 i.putExtra("title", "Wisata Batu Flower Garden");
                 i.putExtra("desc", "Objek wisata ini memiliki pemandangan sisi bukit dengan bunga, air terjun, dan berbagai aktivitas.\n" +
                         "Alamat: Oro-Oro Ombo, Kehutanan, Kec. Batu, Kota Batu, Jawa Timur 65151");
@@ -85,6 +89,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
+                i.putExtra("code_image", "5");
                 i.putExtra("title", "Wisata Paralayang Batu");
                 i.putExtra("desc", "Salah satu wisata yang sedang nge-hits di sini adalah Paralayang Batu Malang, salah satu objek wisata yang menyediakan fasilitas kegiatan yang memicu dan memacu adrenalin." +
                         " Paralayang Batu Malang bisa membuat anda mengucurkan keringat dingin, bersemangat, berteriak sekaligus berdecak kagum");
@@ -95,6 +100,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
+                i.putExtra("code_image", "6");
                 i.putExtra("title", "Wisata Alun Alun Batu ");
                 i.putExtra("desc", "Alun-alun kota Batu Malang Jawa Timur Terbaru adalah satu dari dua alun-alun yang dimiliki Malang. " +
                         "Alun-alun ini juga disebut dengan Alun-alun Jami’" +
@@ -107,6 +113,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
+                i.putExtra("code_image", "7");
                 i.putExtra("title", "Kuliner Warung Wareg Batu ");
                 i.putExtra("desc", "ke kota Batu Malang adalah rumah makan warung wareg. Selain menyediakan masakan tradisional, " +
                         "rumah makan dengan nama warung wareg ini terkenal dengan berbagai macam masakan olahan" +
@@ -122,6 +129,7 @@ public class MenuFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
+                i.putExtra("code_image", "8");
                 i.putExtra("title", "Kuliner Pos Ketan Batu ");
                 i.putExtra("desc", "Saat berwisata ke Kota Malang, salah satu hal yang tak boleh terlewatkan adalah berbagai kuliner khasnya yang menggoda" +
                         " yakni Pos Ketan Legenda 1967.");
