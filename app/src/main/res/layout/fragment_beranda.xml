@@ -23,17 +23,42 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="230dp"
-            android:background="@drawable/paralayang" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="230dp"
             android:background="@drawable/png" />
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="230dp"
+            android:background="@drawable/hotelbaru" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/paralayang" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
             android:background="@drawable/warungw" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/hokben" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/talun" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/rondo" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:background="@drawable/hotel" />
 
     </ViewFlipper>
 
