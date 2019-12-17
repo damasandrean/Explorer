@@ -52,9 +52,18 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/lippob">
+                                    android:src="@drawable/lippob"> </ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar"
+                                    android:rating="4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -102,9 +111,18 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/plazab">
+                                    android:src="@drawable/plazab"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar2"
+                                    android:rating="4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -161,9 +179,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/pasarb">
+                                    android:src="@drawable/pasarb"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar3"
+                                    android:rating="3"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -211,9 +239,20 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/pasarm">
+                                    android:src="@drawable/pasarm"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar4"
+                                    android:rating="5"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
