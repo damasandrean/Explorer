@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.damasandrean.explorer.R;
+import com.damasandrean.explorer.activities.FacebookActivity;
+import com.damasandrean.explorer.activities.LoginActivity;
 import com.damasandrean.explorer.activities.RegisterActivity;
 import com.damasandrean.explorer.activities.WhatsappActivity;
 
@@ -42,6 +44,24 @@ public class UserFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent in = new Intent(getActivity(), WhatsappActivity.class );
+                startActivity(in);
+            }
+        });
+
+        Button facebook = (Button) view.findViewById(R.id.facebook);
+        facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), FacebookActivity.class );
+                startActivity(in);
+            }
+        });
+
+        Button logout = (Button) view.findViewById(R.id.logout);
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent in = new Intent(getActivity(), LoginActivity.class );
                 startActivity(in);
             }
         });

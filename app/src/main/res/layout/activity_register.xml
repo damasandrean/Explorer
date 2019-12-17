@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     tools:context=".activities.RegisterActivity">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="290dp"
-        android:layout_height="213dp"
-        android:layout_marginTop="44dp"
-        android:src="@drawable/firebase"
+        android:layout_height="272dp"
+        android:src="@drawable/png"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,7 +25,7 @@
         android:layout_marginBottom="8dp"
         android:drawableLeft="@drawable/user"
         android:drawablePadding="8dp"
-        android:hint="@string/Username"
+        android:hint="@string/email"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/edt_password_register"
