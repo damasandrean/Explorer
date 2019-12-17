@@ -54,6 +54,17 @@
                                     android:scaleType="fitXY"
                                     android:src="@drawable/paralayang"></ImageView>
 
+
+                                <RatingBar
+                                    android:id="@+id/ratingBar"
+                                    android:rating="1"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
                             </RelativeLayout>
 
                             <RelativeLayout
