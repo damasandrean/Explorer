@@ -6,21 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".activities.WhatsappActivity">
 
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="298dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="68dp"
-        android:background="#3BC540"
-        android:onClick="bukaWA"
-        android:text="Buka WA"
-        android:textColor="@android:color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="354dp"
@@ -31,5 +16,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/whatsapp1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="268dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="112dp"
+        android:text="Anda Berhasil Login"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
