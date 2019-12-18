@@ -309,9 +309,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/talun">
+                                    android:src="@drawable/talun"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar5"
+                                    android:rating="4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -359,9 +369,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/rondo">
+                                    android:src="@drawable/rondo"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar6"
+                                    android:rating="4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -418,9 +438,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/bns">
+                                    android:src="@drawable/bns"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar7"
+                                    android:rating="4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -468,9 +498,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/angkut">
+                                    android:src="@drawable/angkut"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar8"
+                                    android:rating="4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
                             </RelativeLayout>
 
                             <RelativeLayout

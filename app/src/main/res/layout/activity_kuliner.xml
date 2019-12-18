@@ -52,9 +52,18 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/warungw">
+                                    android:src="@drawable/warungw"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar"
+                                    android:rating="5"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -102,9 +111,18 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/pujasera">
+                                    android:src="@drawable/pujasera"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar2"
+                                    android:rating="3"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -161,9 +179,16 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/ss">
-
-                                </ImageView>
+                                    android:src="@drawable/ss"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar3"
+                                    android:rating="5"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -211,9 +236,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/oura">
+                                    android:src="@drawable/oura"></ImageView>
 
-                                </ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentBottom="true"
+                                    android:progressTint="@color/tintwar"
+                                    android:rating="5"
+                                    android:scaleX="1" />
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -270,9 +305,17 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/sum">
+                                    android:src="@drawable/sum"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar5"
+                                    android:rating="5"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -320,9 +363,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/coklat">
+                                    android:src="@drawable/coklat"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar6"
+                                    android:rating="4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -379,9 +432,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/yoshinoya">
+                                    android:src="@drawable/yoshinoya"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar7"
+                                    android:rating="5"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -429,9 +492,19 @@
                                     android:layout_centerHorizontal="true"
                                     android:layout_marginTop="3dp"
                                     android:scaleType="fitXY"
-                                    android:src="@drawable/hokben">
+                                    android:src="@drawable/hokben"></ImageView>
+                                <RatingBar
+                                    android:id="@+id/ratingBar8"
+                                    android:rating="4"
+                                    style="?android:ratingBarStyleIndicator"
+                                    android:scaleX="1"
+                                    android:progressTint="@color/tintwar"
+                                    android:layout_alignParentBottom="true"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
 
-                                </ImageView>
+
+
                             </RelativeLayout>
 
                             <RelativeLayout
