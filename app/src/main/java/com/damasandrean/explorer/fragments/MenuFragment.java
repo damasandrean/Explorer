@@ -43,7 +43,7 @@ public class MenuFragment extends Fragment {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
                 i.putExtra("code_image", "1");
                 i.putExtra("title", "Hotel Singhasari");
-                i.putExtra("desc", " menyediakan layanan dan fasilitas lain seperti VIP Karaoke"+
+                i.putExtra("desc", " Menyediakan layanan dan fasilitas lain seperti VIP Karaoke"+
                         "Coffee Shop, Cake Shop, Parkway Health, Swimming Pool " +
                         "Jl. Ir. Soekarno No.120, Beji, Kec. Batu, Kota Batu, Jawa Timur 65236");
                 startActivity(i);
@@ -55,7 +55,7 @@ public class MenuFragment extends Fragment {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
                 i.putExtra("code_image", "2");
                 i.putExtra("title", "Hotel Grand City");
-                i.putExtra("desc", " menyediakan layanan dan fasilitas lain seperti VIP Karaoke,"+
+                i.putExtra("desc", "Menyediakan layanan dan fasilitas lain seperti VIP Karaoke,"+
                         " Bamboo Coffee ShopJl. Bukit Berbunga No.104-108, Sidomulyo, Kec. Batu, Kota Batu, Jawa Timur 65317");
                 startActivity(i);
             }
@@ -115,7 +115,7 @@ public class MenuFragment extends Fragment {
                 Intent i = new Intent(getActivity(), DetailActivity.class);
                 i.putExtra("code_image", "7");
                 i.putExtra("title", "Kuliner Warung Wareg Batu ");
-                i.putExtra("desc", "ke kota Batu Malang adalah rumah makan warung wareg. Selain menyediakan masakan tradisional, " +
+                i.putExtra("desc", "Ke kota Batu Malang adalah rumah makan warung wareg. Selain menyediakan masakan tradisional, " +
                         "rumah makan dengan nama warung wareg ini terkenal dengan berbagai macam masakan olahan" +
                         " gurami, mulai masakan dari gurami goreng," +
                         " gurami goreng garing yang dibalut tepung, " +
